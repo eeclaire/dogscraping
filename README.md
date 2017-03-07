@@ -1,10 +1,10 @@
 ## Set up a virtual environment
-`virtualenv venv`
-`. venv/bin/activate`
+`virtualenv venv`  
+`. venv/bin/activate`  
 
 ## Imports
-`pip install beautifulsoup4`
-`pip install lxml
+`pip install beautifulsoup4`  
+`pip install lxml`  
 
 #### urllib2
 urllib2 has been split across urllib.request and urllib.error (https://docs.python.org/2/library/urllib2.html)
@@ -14,7 +14,7 @@ urllib2 has been split across urllib.request and urllib.error (https://docs.pyth
 
 #### Methods
 * `urlopen(url).read()`
-* `BeautifulSoup(html, format)`
+* `BeautifulSoup(html, parser)`
 
 ```
 from bs4 import BeautifulSoup
